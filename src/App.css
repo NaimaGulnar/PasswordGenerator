@@ -1,0 +1,79 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.heading {
+  font-size: 2rem;
+  margin: 3%;
+  text-align: center;
+}
+.container {
+  background-color: rgb(226, 222, 222);
+  padding: 5% 8%;
+  width: 50%;
+  margin: 3% auto;
+  border-radius: 1rem;
+  box-shadow: 7px 7px 18px 0 black;
+}
+.container p {
+  font-size: 1.3rem;
+  margin-bottom: 1%;
+}
+.password {
+  margin-top: 3%;
+  font-size: 1.3rem;
+}
+.pw {
+  font-weight: bold;
+}
+.copy-btn {
+  padding: 1.5% 2%;
+  border-radius: 1rem;
+  background-color: black;
+  color: white;
+  margin: 0 2%;
+  font-size: 1rem;
+  border: none;
+  transition: 0.3s;
+}
+.copy-btn:hover {
+  cursor: pointer;
+}
+.footer {
+  font-size: 0.8rem;
+  color: gray;
+  position: absolute;
+  bottom: 2%;
+  left: 45%;
+}
+
+/* media queries */
+@media screen and (max-width: 768px) {
+  .container {
+    width: 70%;
+  }
+}
+@media screen and (max-width: 480px) {
+  .heading {
+    font-size: 1.7rem;
+    margin: 5%;
+  }
+  .container {
+    width: 85%;
+  }
+  .container p {
+    font-size: 1rem;
+    margin-bottom: 3%;
+  }
+  .password {
+    font-size: 1rem;
+  }
+  .copy-btn {
+    padding: 2% 2.5%;
+    font-size: 0.9rem;
+  }
+}
